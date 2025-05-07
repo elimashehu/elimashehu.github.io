@@ -19,7 +19,7 @@ author_profile: true
 Preprints
 ======  
 * [*Sagbi and Gröbner Bases Detection*](https://arxiv.org/abs/2404.16796) (2024). Joint with Viktoriia Borovik and Timothy Duff.  
-  💻 *Software Contribution*: Macaulay2 Package: `SagbiGbDetection`
+  💻 *Software Contribution*: Macaulay2 Package: [`SagbiGbDetection`](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/SagbiGbDetection/html/index.html)
 
 
 Published
