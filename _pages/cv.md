@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+#title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,36 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **Postdoctoral Researcher**, Otto-von-Guericke-Universität Magdeburg, Germany (since April 2024)  
+  *MathCoRe – Mathematical Complexity Reduction Group*
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **PhD in Mathematics**, Osnabrück University & Max Planck Institute for Mathematics in the Sciences, Leipzig, Germany (April 2024)  
+  *Emmy Noether Group – Applied Algebra and Data Analysis*
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- **MSc in Applied Mathematics**, Polytechnic University of Tirana, Albania (July 2019)  
+  Evaluation: Excellent
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- **BSc in Applied Mathematics**, Polytechnic University of Tirana, Albania (July 2017)
+
+### Scientific Visit
+
+- **KTH Royal Institute of Technology**, Stockholm, Sweden — *September 2022*
+
+### Travel Award
+
+- **International Conference on Computer Vision (ICCV)**, Paris — *October 2–6, 2023*  
+  *Travel grant: 850 €*
+
+## Teaching Experience
+
+- **Assistant Lecturer (part-time)**, Polytechnic University of Tirana — *October 2019 – March 2021*  
+  Courses taught:
+  - Calculus I  
+  - Probability Theory  
+  - Linear Algebra
+
+- **Assistant Lecturer (part-time)**, University of Tirana, Faculty of Economics — *November 2020 – March 2021*  
+  Course taught:
+  - Mathematica I
