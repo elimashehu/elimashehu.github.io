@@ -19,7 +19,7 @@ author_profile: true
 Preprints
 ======  
 * [*Triangulation of Points Constrained to a Plane*](https://arxiv.org/abs/2604.27246) (2026). Joint with Petr Hrubý.  
-* [*Sagbi and Gröbner Bases Detection*](https://arxiv.org/abs/2404.16796) (2024). Joint with Viktoriia Borovik and Timothy Duff.  
+* [*Sagbi and Gröbner Bases Detection*](https://arxiv.org/abs/2404.16796) (2024)(To appear in the Proceedings of the 2026 ACM International Symposium on Symbolic and Algebraic Computation (ISSAC'26)). Joint with Viktoriia Borovik and Timothy Duff.  
   💻 *Software Contribution*: Macaulay2 Package: [`SagbiGbDetection`](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/SagbiGbDetection/html/index.html)
 
 
