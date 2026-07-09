@@ -19,12 +19,13 @@ author_profile: true
 Preprints
 ======  
 * [*Triangulation of Points Constrained to a Plane*](https://arxiv.org/abs/2604.27246) (2026). Joint with Petr Hrubý.  
-* [*Sagbi and Gröbner Bases Detection*](https://arxiv.org/abs/2404.16796) (2024)(To appear in the Proceedings of the 2026 ACM International Symposium on Symbolic and Algebraic Computation (ISSAC'26)). Joint with Viktoriia Borovik and Timothy Duff.  
-  💻 *Software Contribution*: Macaulay2 Package: [`SagbiGbDetection`](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/SagbiGbDetection/html/index.html)
+
 
 
 Published
-======    
+====== 
+* [*Sagbi and Gröbner Bases Detection*](https://doi.org/10.1145/3815436.381546) (ISSAC '26: Proceedings of the 2026 International Symposium on Symbolic and Algebraic Computation). Joint with Viktoriia Borovik and Timothy Duff.  
+  💻 *Software Contribution*: Macaulay2 Package: [`SagbiGbDetection`](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/SagbiGbDetection/html/index.html)
 * [*Line Multiview Varieties*](https://epubs.siam.org/doi/10.1137/22M1482263) (2023). Joint with Paul Breiding, Felix Rydell, and Angelica Torres. *SIAM Journal on Applied Algebra and Geometry*.  
 * [*Theoretical and Numerical Analysis of 3D Reconstruction Using Point and Line Incidences*](https://openaccess.thecvf.com/content/ICCV2023/papers/Rydell_Theoretical_and_Numerical_Analysis_of_3D_Reconstruction_Using_Point_and_ICCV_2023_paper.pdf) (2023). Joint with Felix Rydell and Angelica Torres. *International Conference on Computer Vision (ICCV)*.  
 * [*Computing Algebraic Degrees of Phylogenetic Varieties*](https://msp.org/astat/2023/14-2/astat-v14-n2-p05-p.pdf) (2024). Joint with Luis David García Puente and Marina Garrote-López. *Algebraic Statistics*.  
