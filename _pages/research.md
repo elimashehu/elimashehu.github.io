@@ -24,7 +24,7 @@ Preprints
 
 Published
 ====== 
-* [*Sagbi and Gröbner Bases Detection*](https://doi.org/10.1145/3815436.381546) (ISSAC '26: Proceedings of the 2026 International Symposium on Symbolic and Algebraic Computation). Joint with Viktoriia Borovik and Timothy Duff.  
+* [*Sagbi and Gröbner Bases Detection*](https://doi.org/10.1145/3815436.381546) (ISSAC '26: Proceedings of the 2026 International Symposium on Symbolic and Algebraic Computation). **Honorable Mention.** Joint with Viktoriia Borovik and Timothy Duff.
   💻 *Software Contribution*: Macaulay2 Package: [`SagbiGbDetection`](https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/SagbiGbDetection/html/index.html)
 * [*Line Multiview Varieties*](https://epubs.siam.org/doi/10.1137/22M1482263) (2023). Joint with Paul Breiding, Felix Rydell, and Angelica Torres. *SIAM Journal on Applied Algebra and Geometry*.  
 * [*Theoretical and Numerical Analysis of 3D Reconstruction Using Point and Line Incidences*](https://openaccess.thecvf.com/content/ICCV2023/papers/Rydell_Theoretical_and_Numerical_Analysis_of_3D_Reconstruction_Using_Point_and_ICCV_2023_paper.pdf) (2023). Joint with Felix Rydell and Angelica Torres. *International Conference on Computer Vision (ICCV)*.  
