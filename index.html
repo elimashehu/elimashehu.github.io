@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elima Shehu — Applied &amp; Computational Algebraic Geometry</title>
+  <meta name="description" content="Elima Shehu is a postdoctoral researcher in applied and computational algebraic geometry at OVGU Magdeburg, working on polynomial systems in computer vision (algebraic vision) and algebraic statistics." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Inter:wght@400;450;500;550;600;650;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="wrap nav__inner">
+      <a href="#top" class="brand">
+        <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <circle cx="20" cy="20" r="19" stroke="var(--accent)" stroke-width="1.4" opacity=".25"/>
+          <line x1="6" y1="30" x2="34" y2="12" stroke="var(--accent)" stroke-width="1.4"/>
+          <line x1="6" y1="14" x2="34" y2="30" stroke="var(--accent)" stroke-width="1.4"/>
+          <line x1="20" y1="4" x2="20" y2="36" stroke="var(--accent)" stroke-width="1.4" opacity=".5"/>
+          <circle cx="20" cy="20.5" r="3" fill="var(--accent)"/>
+          <circle cx="6" cy="14" r="2.4" fill="var(--accent-2)"/>
+          <circle cx="34" cy="30" r="2.4" fill="var(--accent-2)"/>
+          <circle cx="34" cy="12" r="2.4" fill="var(--accent-2)"/>
+          <circle cx="6" cy="30" r="2.4" fill="var(--accent-2)"/>
+        </svg>
+        <span>Elima Shehu<small>Algebraic Vision</small></span>
+      </a>
+      <nav class="nav__links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#software">Software</a>
+        <a href="#activities">Activities</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M1.5 12h3M19.5 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <span id="top"></span>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <svg class="hero__bg" id="heroBg" viewBox="0 0 1200 620" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+    <div class="wrap hero__grid">
+      <div class="hero__intro reveal">
+        <span class="eyebrow"><span class="dot"></span> Applied &amp; Computational Algebraic Geometry</span>
+        <h1>Elima <span class="accent">Shehu</span></h1>
+        <p class="hero__role"><b>Postdoctoral Researcher</b> · MathCoRe Research Training Group, Otto von Guericke University Magdeburg</p>
+        <p class="hero__lead">I study systems of polynomial equations that arise in computer vision — the algebra and geometry behind reconstructing the 3D world from images.</p>
+        <div class="hero__cta">
+          <a href="#publications" class="btn btn--primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M4 5h16M4 12h16M4 19h10"/></svg>
+            View Publications
+          </a>
+          <a href="#cv" class="btn btn--ghost">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M6 2h9l5 5v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1Z"/><path d="M14 2v6h6"/></svg>
+            Curriculum Vitae
+          </a>
+        </div>
+        <div class="hero__social">
+          <a href="mailto:elima.shehu@ovgu.de" aria-label="Email" title="elima.shehu@ovgu.de">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          </a>
+          <a href="https://scholar.google.com/citations?user=HJP5UY0AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zM5 13.2V17c0 1.7 3.1 3 7 3s7-1.3 7-3v-3.8l-7 3.8-7-3.6z"/></svg>
+          </a>
+          <a href="https://orcid.org/0000-0001-8550-9997" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID 0000-0001-8550-9997">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zM7.4 18H5.6V8.3h1.8V18zM6.5 7.1a1.05 1.05 0 1 1 0-2.1 1.05 1.05 0 0 1 0 2.1zM18.4 18h-1.8v-4.9c0-1.2 0-2.7-1.6-2.7s-1.9 1.3-1.9 2.6V18h-1.8V8.3h1.7v1.3h.1c.4-.7 1.3-1.5 2.6-1.5 2.8 0 3.3 1.8 3.3 4.2V18z" opacity="0"/><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM8.1 18.9H6.2V8.6h1.9v10.3zM7.15 7.35a1.1 1.1 0 1 1 0-2.2 1.1 1.1 0 0 1 0 2.2zm11.4 11.55h-1.9v-5.1c0-1.2-.02-2.75-1.68-2.75-1.68 0-1.94 1.31-1.94 2.66v5.19h-1.9V8.6h1.82v1.4h.03c.25-.48 1.02-1.4 2.44-1.4 2.6 0 3.08 1.71 3.08 3.94v6.36z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="portrait reveal">
+        <div class="portrait__frame">
+          <img src="assets/elima.jpg" alt="Portrait of Elima Shehu" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-num">01</span>
+        <h2 class="sec-title">About</h2>
+        <span class="rule"></span>
+      </div>
+      <div class="about">
+        <div class="reveal">
+          <p class="lede">I work at the meeting point of algebra, geometry, and computation — using polynomial systems to answer concrete questions in computer vision and statistics.</p>
+          <p>I am a postdoctoral researcher in the <b>MathCoRe</b> Research Training Group at <a href="https://www.ovgu.de/en/" target="_blank" rel="noopener">Otto von Guericke University Magdeburg</a>. I completed my Ph.D. in Mathematics at <a href="https://www.uni-osnabrueck.de/" target="_blank" rel="noopener">Osnabrück University</a> in April 2024, under the supervision of <a href="https://pbrdng.github.io/index.html" target="_blank" rel="noopener">Paul Breiding</a>.</p>
+          <p>From 2021 to 2024 I was a doctoral researcher in the Emmy Noether Group, hosted by the <a href="https://www.mis.mpg.de/" target="_blank" rel="noopener">Max Planck Institute for Mathematics in the Sciences</a> in Leipzig. My research lies in applied and computational algebraic geometry, focusing on the polynomial equations behind <b>algebraic vision</b> and <b>algebraic statistics</b>.</p>
+          <p>Outside mathematics, I enjoy time in nature, cooking cuisines from around the world, and discovering new places through travel.</p>
+        </div>
+        <div class="facts reveal">
+          <div class="fact">
+            <div class="fact__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 20V10M6 20V4M18 20v-6"/></svg></div>
+            <div><div class="fact__k">Position</div><div class="fact__v">Postdoctoral Researcher <span>· MathCoRe RTG, OVGU Magdeburg</span></div></div>
+          </div>
+          <div class="fact">
+            <div class="fact__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 10 12 4 2 10l10 6 10-6zM6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg></div>
+            <div><div class="fact__k">PhD in Mathematics</div><div class="fact__v">Osnabrück University <span>· April 2024, adv. Paul Breiding</span></div></div>
+          </div>
+          <div class="fact">
+            <div class="fact__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div>
+            <div><div class="fact__k">Fields</div><div class="fact__v">Algebraic Vision · Computer Vision <span>· Algebraic Statistics</span></div></div>
+          </div>
+          <div class="fact">
+            <div class="fact__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-5.7-7-11a7 7 0 0 1 14 0c0 5.3-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+            <div><div class="fact__k">Based in</div><div class="fact__v">Magdeburg, Germany <span>· previously Leipzig &amp; Tirana</span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESEARCH ============ -->
+  <section id="research" class="research">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-num">02</span>
+        <h2 class="sec-title">Research</h2>
+        <span class="rule"></span>
+      </div>
+      <p class="lede reveal" style="max-width:56ch;margin-bottom:44px">Many geometric problems — reconstructing a scene from photographs, or inferring an evolutionary tree — become systems of polynomial equations. I study the <em>varieties</em> those systems define: their degree, structure, and the algorithms that solve them.</p>
+      <div class="cards">
+        <div class="card reveal">
+          <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 6l7-3 6 3 7-3v15l-7 3-6-3-7 3V6z"/><path d="M9 3v15M15 6v15"/></svg></div>
+          <h3>Algebraic Vision</h3>
+          <p>The geometry of 3D reconstruction from images: multiview varieties, point- and line-incidence constraints, and the essential variety underlying two-view geometry.</p>
+          <div class="card__tags"><span class="tag">Multiview varieties</span><span class="tag">Essential variety</span><span class="tag">Triangulation</span></div>
+        </div>
+        <div class="card reveal">
+          <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4v16h16"/><path d="M4 16l5-6 4 3 6-8"/></svg></div>
+          <h3>Computational Algebraic Geometry</h3>
+          <p>Turning geometry into computation: numerical algebraic geometry, Gröbner and SAGBI bases, and algorithms for the degree and structure of varieties.</p>
+          <div class="card__tags"><span class="tag">Gröbner / SAGBI</span><span class="tag">Numerical AG</span><span class="tag">Macaulay2</span></div>
+        </div>
+        <div class="card reveal">
+          <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M6 8.5v3l6 4M18 8.5v3l-6 4"/></svg></div>
+          <h3>Algebraic Statistics</h3>
+          <p>Algebra meets inference: the algebraic degree of phylogenetic varieties and the geometry of statistical models arising in evolutionary biology.</p>
+          <div class="card__tags"><span class="tag">Phylogenetics</span><span class="tag">Algebraic degree</span><span class="tag">Model geometry</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PUBLICATIONS ============ -->
+  <section id="publications">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-num">03</span>
+        <h2 class="sec-title">Publications</h2>
+        <span class="rule"></span>
+        <a href="https://scholar.google.com/citations?user=HJP5UY0AAAAJ&hl=en" target="_blank" rel="noopener" class="plink" style="align-self:center"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zM5 13.2V17c0 1.7 3.1 3 7 3s7-1.3 7-3v-3.8l-7 3.8-7-3.6z"/></svg> Google Scholar</a>
+      </div>
+
+      <!-- Preprints -->
+      <div class="pub-group reveal">
+        <div class="pub-group__h"><h3>Preprints</h3><span class="count">1</span><span class="rule"></span></div>
+        <div class="pub">
+          <div class="pub__year">2026</div>
+          <div>
+            <div class="pub__title"><a href="https://arxiv.org/abs/2604.27246" target="_blank" rel="noopener">Triangulation of Points Constrained to a Plane</a></div>
+            <div class="pub__meta">
+              <span class="venue">Preprint</span>
+              <span class="authors"><b>E. Shehu</b>, P. Hrubý</span>
+            </div>
+            <div class="pub__links"><a class="plink" href="https://arxiv.org/abs/2604.27246" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 3h7v7M21 3l-9 9M10 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/></svg> arXiv</a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Published -->
+      <div class="pub-group reveal">
+        <div class="pub-group__h"><h3>Published &amp; Peer-Reviewed</h3><span class="count">6</span><span class="rule"></span></div>
+
+        <div class="pub">
+          <div class="pub__year">2026</div>
+          <div>
+            <div class="pub__title"><a href="https://doi.org/10.1145/3815436.381546" target="_blank" rel="noopener">SAGBI and Gröbner Bases Detection</a></div>
+            <div class="pub__meta">
+              <span class="venue">ISSAC '26</span>
+              <span class="award"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 9.2 8.6 2 9.2l5.5 4.7L5.8 21 12 17.3 18.2 21l-1.7-7.1L22 9.2l-7.2-.6L12 2z"/></svg> Honorable Mention</span>
+              <span class="authors">V. Borovik, T. Duff, <b>E. Shehu</b></span>
+            </div>
+            <div class="pub__links">
+              <a class="plink" href="https://doi.org/10.1145/3815436.381546" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg> DOI</a>
+              <a class="plink plink--code" href="https://macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/SagbiGbDetection/html/index.html" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13 5l-2 14"/></svg> Macaulay2 · SagbiGbDetection</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub">
+          <div class="pub__year">2024</div>
+          <div>
+            <div class="pub__title"><a href="https://link.springer.com/article/10.1007/s44007-024-00106-0" target="_blank" rel="noopener">Average Degree of the Essential Variety</a></div>
+            <div class="pub__meta">
+              <span class="venue">La Matematica</span>
+              <span class="authors">P. Breiding, S. Fairchild, P. Santarsiero, <b>E. Shehu</b></span>
+            </div>
+            <div class="pub__links"><a class="plink" href="https://link.springer.com/article/10.1007/s44007-024-00106-0" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg> DOI</a></div>
+          </div>
+        </div>
+
+        <div class="pub">
+          <div class="pub__year">2024</div>
+          <div>
+            <div class="pub__title"><a href="https://msp.org/astat/2023/14-2/astat-v14-n2-p05-p.pdf" target="_blank" rel="noopener">Computing Algebraic Degrees of Phylogenetic Varieties</a></div>
+            <div class="pub__meta">
+              <span class="venue venue--stat">Algebraic Statistics</span>
+              <span class="authors">L. D. García Puente, M. Garrote-López, <b>E. Shehu</b></span>
+            </div>
+            <div class="pub__links"><a class="plink" href="https://msp.org/astat/2023/14-2/astat-v14-n2-p05-p.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2h9l5 5v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1Z"/><path d="M14 2v6h6"/></svg> PDF</a></div>
+          </div>
+        </div>
+
+        <div class="pub">
+          <div class="pub__year">2024</div>
+          <div>
+            <div class="pub__title"><a href="https://www.tandfonline.com/doi/abs/10.1080/00927872.2024.2343762" target="_blank" rel="noopener">Line Multiview Ideals</a></div>
+            <div class="pub__meta">
+              <span class="venue">Communications in Algebra</span>
+              <span class="authors">P. Breiding, T. Duff, L. Gustafsson, F. Rydell, <b>E. Shehu</b></span>
+            </div>
+            <div class="pub__links"><a class="plink" href="https://www.tandfonline.com/doi/abs/10.1080/00927872.2024.2343762" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg> DOI</a></div>
+          </div>
+        </div>
+
+        <div class="pub">
+          <div class="pub__year">2023</div>
+          <div>
+            <div class="pub__title"><a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Rydell_Theoretical_and_Numerical_Analysis_of_3D_Reconstruction_Using_Point_and_ICCV_2023_paper.pdf" target="_blank" rel="noopener">Theoretical and Numerical Analysis of 3D Reconstruction Using Point and Line Incidences</a></div>
+            <div class="pub__meta">
+              <span class="venue">ICCV 2023</span>
+              <span class="authors">F. Rydell, A. Torres, <b>E. Shehu</b></span>
+            </div>
+            <div class="pub__links"><a class="plink" href="https://openaccess.thecvf.com/content/ICCV2023/papers/Rydell_Theoretical_and_Numerical_Analysis_of_3D_Reconstruction_Using_Point_and_ICCV_2023_paper.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2h9l5 5v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1Z"/><path d="M14 2v6h6"/></svg> Paper (CVF)</a></div>
+          </div>
+        </div>
+
+        <div class="pub">
+          <div class="pub__year">2023</div>
+          <div>
+            <div class="pub__title"><a href="https://epubs.siam.org/doi/10.1137/22M1482263" target="_blank" rel="noopener">Line Multiview Varieties</a></div>
+            <div class="pub__meta">
+              <span class="venue">SIAM J. Appl. Algebra Geom.</span>
+              <span class="authors">P. Breiding, F. Rydell, A. Torres, <b>E. Shehu</b></span>
+            </div>
+            <div class="pub__links"><a class="plink" href="https://epubs.siam.org/doi/10.1137/22M1482263" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg> DOI</a></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOFTWARE ============ -->
+  <section id="software" class="software">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-num">04</span>
+        <h2 class="sec-title">Software</h2>
+        <span class="rule"></span>
+      </div>
+      <div class="soft-card reveal">
+        <div class="soft-card__main">
+          <div class="soft-card__head">
+            <span class="soft-card__ic">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13 4l-2 16"/></svg>
+            </span>
+            <div>
+              <h3 class="soft-card__name">SagbiGbDetection.jl</h3>
+              <div class="soft-card__tagline">A Julia package for Gröbner &amp; SAGBI basis detection</div>
+            </div>
+          </div>
+          <p class="soft-card__desc">Given the generators of an ideal — or of a finitely generated subalgebra of a polynomial ring — the package searches for a term order under which those generators form a <b>Gröbner basis</b>, respectively a <b>SAGBI basis</b>. Built on the <a href="https://www.oscar-system.org/" target="_blank" rel="noopener">Oscar.jl</a> computer-algebra system.</p>
+          <div class="soft-card__tags">
+            <span class="tag">Julia</span>
+            <span class="tag">Oscar.jl</span>
+            <span class="tag">MIT License</span>
+            <span class="tag">Borovik · Duff · Shehu</span>
+          </div>
+          <p class="soft-card__note">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2h9l5 5v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1Z"/><path d="M14 2v6h6"/></svg>
+            Companion software to the ISSAC '26 paper <a href="#publications">“SAGBI and Gröbner Bases Detection.”</a>
+          </p>
+        </div>
+        <div class="soft-card__side">
+          <div class="soft-install">
+            <div class="soft-install__bar"><i></i><i></i><i></i><span>Julia REPL</span></div>
+            <pre class="soft-install__code"><span class="pr">julia&gt;</span> using Pkg
+<span class="pr">julia&gt;</span> Pkg.add(url=<span class="st">"https://github.com/elimashehu/SagbiGbDetection.jl"</span>)</pre>
+          </div>
+          <div class="soft-card__links">
+            <a class="btn btn--primary" href="https://github.com/elimashehu/SagbiGbDetection.jl" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.4-1.27.74-1.56-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.26 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+              View on GitHub
+            </a>
+            <a class="btn btn--ghost" href="https://elimashehu.github.io/SagbiGbDetection.jl/dev/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5Z"/><path d="M9 8h4M9 12h7M9 16h7"/></svg>
+              Documentation
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ACTIVITIES ============ -->
+  <section id="activities" class="activities">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-num">05</span>
+        <h2 class="sec-title">Talks &amp; Activities</h2>
+        <span class="rule"></span>
+      </div>
+      <div class="act-grid">
+        <div class="act-col">
+          <div class="panel reveal">
+            <div class="panel__h"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 10v4h4l5 4V6L7 10H3zM16 8a4 4 0 0 1 0 8M19 5a8 8 0 0 1 0 14"/></svg></span><h3>Invited Talks</h3></div>
+            <ul class="tl">
+              <li><div class="t"><em>Geometry and Optimization for 3D Reconstruction</em></div><div class="m"><span class="where"><a href="https://www.mathcore.ovgu.de/index.php?show=events&amp;event=2026-05-28-mathcore-conference" target="_blank" rel="noopener">MathCoRe Conference, Magdeburg</a></span> · May 2026</div></li>
+              <li><div class="t"><em>Average Degree of the Essential Variety</em></div><div class="m"><span class="where">Non-linear Algebra Seminar, MPI MiS Leipzig</span> · Dec 2022</div></li>
+              <li><div class="t"><em>Line Multiview Varieties</em></div><div class="m"><span class="where">Algebraic Vision Meeting, Czech Technical University, Prague</span> · May 2022</div></li>
+              <li><div class="t"><em>Line Multiview Varieties</em></div><div class="m"><span class="where">Oberseminar Algebra, Osnabrück University</span> · Apr 2022</div></li>
+              <li><div class="t"><em>Line Multiview Varieties</em></div><div class="m"><span class="where">Non-linear Algebra Seminar, MPI MiS Leipzig</span> · Mar 2022</div></li>
+            </ul>
+          </div>
+
+          <div class="panel reveal">
+            <div class="panel__h"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 4h16v12H4zM8 20h8M12 16v4"/><path d="M8 11l2.5 2L16 7"/></svg></span><h3>Conference Talks &amp; Posters</h3></div>
+            <ul class="tl">
+              <li><div class="t"><em>SAGBI and Gröbner Bases Detection</em><span class="chip chip--talk">Talk</span></div><div class="m"><span class="where"><a href="https://www.issac-conference.org/2026/" target="_blank" rel="noopener">ISSAC 2026, Oldenburg</a></span> · Jul 2026</div></li>
+              <li><div class="t"><em>3D Reconstruction Using Point and Line Incidences</em><span class="chip chip--poster">Poster</span></div><div class="m"><span class="where">ICCV, Paris</span> · Oct 2023 &nbsp;·&nbsp; <span class="where">Applied Algebra, Osnabrück</span> · Sep 2023</div></li>
+              <li><div class="t"><em>Average Degree of the Essential Variety</em><span class="chip chip--talk">Talk</span></div><div class="m"><span class="where">SIAM AG23, Eindhoven</span> · Jul 2023 &nbsp;·&nbsp; <span class="where">RMSE Meeting, León</span> · Feb 2023</div></li>
+              <li><div class="t"><em>Line Multiview Varieties</em><span class="chip chip--talk">Talk</span></div><div class="m"><span class="where">DMV Workshop, Berlin</span> · Sep 2022 &nbsp;·&nbsp; <span class="where">19th EWM General Meeting, Espoo</span> · Aug 2022</div></li>
+              <li><div class="t"><em>Line Multiview Varieties</em><span class="chip chip--poster">Poster</span></div><div class="m"><span class="where">CIMPA Summer School, Tirana</span> · Jul 2022</div></li>
+              <li><div class="t"><em>Algebraic Degrees of Phylogenetic Varieties</em><span class="chip chip--talk">Talk</span></div><div class="m"><span class="where">MEGA Conference, Kraków</span> · Jun 2022</div></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="act-col">
+          <div class="panel reveal">
+            <div class="panel__h"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13A4 4 0 0 1 16 11"/></svg></span><h3>Organisation</h3></div>
+            <ul class="tl">
+              <li><div class="t">Algebraic Vision Minisymposium</div><div class="m"><span class="where">SIAM AG, Eindhoven</span> · Jul 2023</div></li>
+              <li><div class="t">Special Day Seminar on Algebraic Geometry</div><div class="m"><span class="where">MPI MiS Leipzig</span> · May 2022</div></li>
+              <li><div class="t"><a href="https://sites.google.com/view/agave-mission/hem" target="_blank" rel="noopener">AGAVE Reading Group in Algebraic Vision</a></div><div class="m"><span class="where">Reading group</span> · concluded 2024</div></li>
+            </ul>
+          </div>
+
+          <div class="panel reveal">
+            <div class="panel__h"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2 2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></span><h3>Visits &amp; Participation</h3></div>
+            <ul class="tl">
+              <li><div class="t">Scientific Visit — KTH Royal Institute of Technology</div><div class="m"><span class="where">Stockholm</span> · Sep 2022</div></li>
+              <li><div class="t">Saxonian Seminar Day on Algebra &amp; Geometry</div><div class="m"><span class="where">Dresden</span> · May 2022</div></li>
+              <li><div class="t">Convex and Discrete Geometry Day</div><div class="m"><span class="where">Berlin</span> · Mar 2022</div></li>
+              <li><div class="t">SIAM AG · MEGA · CVPR</div><div class="m"><span class="where">Virtual</span> · 2021</div></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CV ============ -->
+  <section id="cv">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-num">06</span>
+        <h2 class="sec-title">Curriculum Vitae</h2>
+        <span class="rule"></span>
+      </div>
+      <div class="cv-grid">
+        <div class="reveal">
+          <h3 style="font-size:1.05rem;font-family:var(--sans);text-transform:uppercase;letter-spacing:.14em;color:var(--faint);font-weight:700;margin-bottom:26px">Education &amp; Positions</h3>
+          <ul class="edu">
+            <li>
+              <div class="deg">Postdoctoral Researcher</div>
+              <div class="org">Otto von Guericke University Magdeburg — MathCoRe (Mathematical Complexity Reduction)</div>
+              <span class="yr">Since April 2024</span>
+            </li>
+            <li>
+              <div class="deg">Ph.D. in Mathematics</div>
+              <div class="org">Osnabrück University &amp; MPI for Mathematics in the Sciences, Leipzig</div>
+              <span class="yr">April 2024</span>
+              <div class="note">Emmy Noether Group — Applied Algebra &amp; Data Analysis · adv. Paul Breiding</div>
+            </li>
+            <li>
+              <div class="deg">M.Sc. in Applied Mathematics</div>
+              <div class="org">Polytechnic University of Tirana, Albania</div>
+              <span class="yr">July 2019</span>
+              <div class="note">Evaluation: Excellent</div>
+            </li>
+            <li>
+              <div class="deg">B.Sc. in Applied Mathematics</div>
+              <div class="org">Polytechnic University of Tirana, Albania</div>
+              <span class="yr">July 2017</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="side-panel">
+          <div class="mini mini--accent reveal">
+            <h4>Award</h4>
+            <div class="award-title">ISSAC '26 Honorable Mention</div>
+            <div class="award-sub">for “SAGBI and Gröbner Bases Detection”, Int. Symposium on Symbolic &amp; Algebraic Computation.</div>
+          </div>
+          <div class="mini reveal">
+            <h4>Teaching</h4>
+            <ul>
+              <li><b>Assistant Lecturer</b> · Polytechnic University of Tirana<span>Calculus I · Probability Theory · Linear Algebra — 2019–2021</span></li>
+              <li><b>Assistant Lecturer</b> · University of Tirana, Faculty of Economics<span>Mathematics I — 2020–2021</span></li>
+            </ul>
+          </div>
+          <div class="mini reveal">
+            <h4>Grants &amp; Visits</h4>
+            <ul>
+              <li><b>ICCV Travel Grant</b> — 850 €<span>Paris · October 2023</span></li>
+              <li><b>Scientific Visit</b> — KTH Stockholm<span>September 2022</span></li>
+            </ul>
+          </div>
+          <div class="mini reveal">
+            <h4>Workshops</h4>
+            <ul>
+              <li><b><a href="https://www.mis.mpg.de/de/events/series/workshop-metric-algebraic-geometry-starting-local" target="_blank" rel="noopener">Metric Algebraic Geometry: Starting Local</a></b><span>MPI MiS, Leipzig · April 2026</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="contact__card">
+        <svg class="bg" id="contactBg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+        <div class="contact__inner">
+          <div class="reveal">
+            <h2>Let's talk mathematics.</h2>
+            <p>I'm always glad to discuss algebraic vision, computational algebraic geometry, collaborations, or talks. Reach out anytime.</p>
+          </div>
+          <div class="contact__links reveal">
+            <a class="clink" href="mailto:elima.shehu@ovgu.de">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <span><span class="k">Email</span><span class="v">elima.shehu@ovgu.de</span></span>
+            </a>
+            <a class="clink" href="https://scholar.google.com/citations?user=HJP5UY0AAAAJ&hl=en" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zM5 13.2V17c0 1.7 3.1 3 7 3s7-1.3 7-3v-3.8l-7 3.8-7-3.6z"/></svg>
+              <span><span class="k">Publications</span><span class="v">Google Scholar</span></span>
+            </a>
+            <a class="clink" href="https://orcid.org/0000-0001-8550-9997" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM8.1 18.9H6.2V8.6h1.9v10.3zM7.15 7.35a1.1 1.1 0 1 1 0-2.2 1.1 1.1 0 0 1 0 2.2zm11.4 11.55h-1.9v-5.1c0-1.2-.02-2.75-1.68-2.75-1.68 0-1.94 1.31-1.94 2.66v5.19h-1.9V8.6h1.82v1.4h.03c.25-.48 1.02-1.4 2.44-1.4 2.6 0 3.08 1.71 3.08 3.94v6.36z"/></svg>
+              <span><span class="k">ORCID</span><span class="v">0000-0001-8550-9997</span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap footer__row">
+      <div class="footer__brand">
+        <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <line x1="6" y1="30" x2="34" y2="12" stroke="var(--accent)" stroke-width="1.6"/>
+          <line x1="6" y1="14" x2="34" y2="30" stroke="var(--accent)" stroke-width="1.6"/>
+          <circle cx="20" cy="20.5" r="3" fill="var(--accent)"/>
+        </svg>
+        Elima Shehu
+      </div>
+      <p>© <span id="year"></span> Elima Shehu · Applied &amp; Computational Algebraic Geometry · Magdeburg</p>
+      <div class="footer__links">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#cv">CV</a>
+        <a href="mailto:elima.shehu@ovgu.de">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
